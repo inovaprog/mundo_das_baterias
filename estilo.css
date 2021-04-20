@@ -1,0 +1,119 @@
+#site{
+	padding: 5%;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.nav-item{
+	font-style: none;
+}
+#navBar{
+	width: 100%;
+
+}
+#navbarNav{
+	width: 100%;
+
+}
+
+.navbar a {
+    color: #5d5c5d;
+    font-size: 1.2rem;
+}
+
+
+}
+#rodape{
+	
+	width: 100%;
+
+}
+#localRodape h3{
+	color: #ffffff;
+	font-size: 1rem;
+}
+#localRodape h2{
+	color: #ffffff;
+	font-size: 1.5rem;
+}
+#localRodape h1{
+	color: #ffffff;
+	font-size: 2rem;
+}
+
+#contatoRodape h3{
+	color: #ffffff;
+	font-size: 1rem;
+}
+#contatoRodape h2{
+	color: #ffffff;
+	font-size: 1.5rem;
+}
+#contatoRodape h1{
+	color: #ffffff;
+	font-size: 2rem;
+}
+
+#localRodape{
+	float: left;
+	
+	width: 50%;
+}
+#contatoRodape{
+	float: right;
+	
+	width: 50%;
+}
+
+#rodape{
+	background-color: #000000;
+	height: 100%;
+	overflow: auto;
+	padding-top: 10px;	
+	padding-bottom: 0;
+}
+
+#conteudo{
+	margin-top: 5px;
+}
+
+#conteudo h2{
+	color: #6b6b6b;
+	padding: 10px;
+}
+#sobre{
+	padding: 10%;
+	padding-top: 20px;
+}
+#sobre h2{
+	color: #6b6b6b;
+	padding: 10px;
+	font-size: 2rem;
+}
+
+#baterias{
+	margin-top: 5px;
+	padding-bottom: 10px;
+}
+#carousel{
+	width: 80%;
+}
+
+@media screen and (max-width: 600px){
+	#site{
+		padding: 5px;
+		padding-top: 0;
+	}
+	#localRodape{
+
+	
+	width: 100%;
+	}
+	#contatoRodape{
+	margin-top: 20px;
+	width: 100%;
+	}
+
+	#carousel{
+	width: 100%;
+	}
+}
